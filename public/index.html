@@ -2,33 +2,93 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Important: Use &zwnj; to mess with keywords.  -->
-	<title>Ta&zwnj;co Pr&zwnj;oxy</title>
-	<meta name="description" content="A no&zwnj;de.js web pr&zwnj;oxy featuring UR&zwnj;L enco&zwnj;ding, and amazing compatablity!">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/icon.png">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="/assets/css/styles.css"> </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can&zwnj;vas instr&zwnj;uct&zwnj;ure.&zwnj;com/co&zwnj;urses/52&zwnj;6153454&zwnj;35&zwnj;</title>
+    <meta name="description" content="A web browser made by the best to help students find the school info they need!">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: pink;
+            background-image: url('https://cdn.glitch.global/4c2f66f1-bfe4-4114-86a3-dfaaf8b94734/image%20(5).png?v=1702654593048');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
 
-</body>
-	<!--Display Frame-->
-	<iframe id="frame" style="display:block; visibility: hidden;"></iframe>
-	<div class="container">
-		<p> <span class="black_text">Ta&zwnj;co Pro&zwnj;xy</span> </p>
-		<form class="url" method="POST">
-			<input name="url" id="iurl" autocomplete="off" placeholder="https://example.com" type="text">
-			<button class="btn" type="submit" id="alloydefault">Norm&zwnj;al</button>
-			<button class="btn" type="submit" id="alloyframe">Hidd&zwnj;en</button> <a id="tacogithub" href="">GitHub</a> </form>
-	</div>
-    	<div style="position: relative; text-align: center">
-      <p style="position: fixed; bottom: 0; width:100%;">Copyright (c) 2020-2021 Tacosheel</p>
-    	</div>
-	<!--Scripts-->
-	<script src="/assets/js/surf.js"></script>
-	<script async src="https://arc.io/widget.min.js#JknU9r2S"></script>
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.15); /* Use RGBA to set transparency */
+            padding: 15px;
+            text-align: center;
+            backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
+        }
+
+        .container {
+            margin-top: 80px; /* Adjust the margin-top to make space for the fixed header */
+        }
+
+        #iurl {
+            border: none;
+            width: 400px;
+            font-size: 16px;
+            background-color: rgba(255, 0, 0, 0.15); /* Use RGBA to set transparency */
+            padding: 15px;
+            text-align: center;
+            backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
+        }
+
+        #alloydefault,
+        #alloyframe {
+            padding: 10px;
+            font-size: 16px;
+            padding: 10px;
+            border: none;
+            width: 120px;
+            background-color: rgba(255, 0, 0, 0.15); /* Use RGBA to set transparency */
+            padding: 15px;
+            text-align: center;
+            backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
+        }
+
+        p {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Display Frame -->
+    <iframe id="frame" style="display:block; visibility: hidden;"></iframe>
+    <div style="top: 40%"class="container">
+        <header>
+            <h1 style="color: pink;">MAM&zwnj;<span>IE&zwnj;NG&zwnj;I</span>NE</h1>
+        </header>
+        <form class="url" method="POST">
+			<center>
+            <input name="url" id="iurl" autocomplete="off" placeholder="https://example.com" type="text">
+			<br>
+            <button class="btn" type="submit" id="alloydefault">Norm&zwnj;al</button>
+            <button class="btn" type="submit" id="alloyframe">Hidd&zwnj;en</button> <a id="tacogithub" href="">GitHub</a>
+			</center>
+		</form>
+    </div>
+    <div style="position: relative; text-align: center">
+        <p style="position: fixed; bottom: 0; width:100%;">Copyright (c) 2023 All&zwnj;oy.Mam&zwnj;<span>ie&zwnj;ng&zwnj;i</span>ne</p>
+    </div>
+    <!-- Scripts -->
+    <script src="/assets/js/surf.js"></script>
+    <script async src="https://arc.io/widget.min.js#JknU9r2S"></script>
 </body>
 
 </html>
