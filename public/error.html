@@ -4,51 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C&zwnj;anvas in&zwnj;str&zwnj;uct&zwnj;ure.&zwnj;com/c&zwnj;ourses/52&zwnj;615&zwnj;345435&zwnj;</title>
-    <meta name="description" content="A web browser made by the best to help students find the school info they need!">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icon.png">
+    <title></title>
+    <meta name="description" content="">
+    <link rel="icon" type="image/png" sizes="32x32" href="">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <style>
-        body, html {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-    
-        body {
-            background-color: pink;
-            background-image: url("https://images.pond5.com/businessman-entrance-maze-footage-054186493_iconl.jpeg");
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-    
-        .container {
-            text-align: center;
-            padding-top: 20%;
-        }
-    
-        h1 {
-            margin: 0;
-        }
-    
-        .black_text {
-            color: black;
-        }
-    </style>    
 </head>
 
 <body>
-    <div class="container">
-        <center>
-            <h1>404</h1>
-        <p> <span class="black_text">Error. Maybe you forgot to add "https://" to your URL?</span> </p> 
-        </center>
+    <iframe id="frame" style="display:block; visibility: hidden;"></iframe>
+        <form class="url" method="POST">
+                <input name="url" id="iurl" autocomplete="off" placeholder="URL here" type="text">
+                <br>
+                <button class="btn" type="submit" id="alloydefault">Search</button>
+                <button class="btn" type="submit" id="alloyframe">Hidden Search</button>
+            </form>
     </div>
-    <!--Scripts-->
+
+    <div style="position: relative; text-align: center">
+        <p style="position: fixed; bottom: 0; width:100%;">Copyright (c) 2023 All&zwnj;oy.Mam&zwnj;<span>iE&zwnj;ng&zwnj;i</span>neV.0.0.1</p>
+    </div>
+
+    <!-- Scripts -->
     <script src="/assets/js/surf.js"></script>
     <script async src="https://arc.io/widget.min.js#JknU9r2S"></script>
 </body>
